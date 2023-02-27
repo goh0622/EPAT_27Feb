@@ -1,0 +1,21 @@
+git init
+git add *
+git status
+git commit -m"initial message"
+git branch
+git branch -M main # Change from master branch to main branch
+git remote add origin <GitHub repo URL>
+git branch -a # Show all the branches locally and remotely
+git push -u origin main # Only for the first time
+
+git checkout -b develop main
+add a new reference.txt file in your project
+git add *
+git commit -m "reference.txt"
+git push
+git push -u origin develop # Push changes to develop branch remotely
+git branch -a
+git checkout main
+git branch
+git merge develop # Merge changes from develop to main locally
+git push -u origin main # Push up to remote main branch
