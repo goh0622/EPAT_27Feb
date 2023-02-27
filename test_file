@@ -22,6 +22,14 @@ git reset --soft <commit ID> # Soft reset
 
 git reset --hard # Totally delete the files
 
-git tag -a v1.0.0
+git tag -a v1.0.0 # Add a tag locally
 
   <Enter a tag message>
+
+  VIM editor: Ctrl+C, :w (to write), :qa!
+
+git tag --list
+
+git push --tags # Push tag up to remote
+
+git ls-remote --tags
