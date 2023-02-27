@@ -1,0 +1,11 @@
+For windows
+
+echo 'new file content' > test_file
+
+echo 'append content' >> edited_file
+
+git add test_file edited_file
+
+git ls-files -s
+
+git reset HEAD # Unstaged the added files
