@@ -9,3 +9,19 @@ git add test_file edited_file
 git ls-files -s
 
 git reset HEAD # Unstaged the added files
+
+git add test_file edited_file
+
+git status
+
+git commit -m "added test_file edited_file" # Commit locally
+
+git log # Show git history from latest to oldest locally
+
+git reset --soft <commit ID> # Soft reset
+
+git reset --hard # Totally delete the files
+
+git tag -a v1.0.0
+
+  <Enter a tag message>
